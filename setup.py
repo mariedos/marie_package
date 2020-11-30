@@ -13,4 +13,5 @@ setup(name='marie_package',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
       scripts=['scripts/marie_package-run'],
+      install_requirements = requirements
       zip_safe=False)
