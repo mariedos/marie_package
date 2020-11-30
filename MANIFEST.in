@@ -1,0 +1,3 @@
+graft marie_package
+global-exclude *.py[cod] __pycache__ *.so *.ipynb
+recursive-exclude  marie_package/jupy *
