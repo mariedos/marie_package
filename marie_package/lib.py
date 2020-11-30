@@ -47,6 +47,12 @@ def clean_data(data):
     data.loc[:, 'Frequency'] = data['Frequency'].map(drows)
     return data
 
+def try_me():
+    age = int(input('What is your age? '))
+    if age >= 18:
+        return 'you can drink alcohol !'
+    else:
+        return 'you have to wait to drink alcohol.'
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
